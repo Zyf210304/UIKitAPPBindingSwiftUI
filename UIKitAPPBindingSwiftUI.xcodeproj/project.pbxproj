@@ -13,6 +13,8 @@
 		029949F2267892BB00A84004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029949F0267892BB00A84004 /* Main.storyboard */; };
 		029949F4267892BC00A84004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029949F3267892BC00A84004 /* Assets.xcassets */; };
 		029949F7267892BC00A84004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029949F5267892BC00A84004 /* LaunchScreen.storyboard */; };
+		02994A02267895B800A84004 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02994A00267895B800A84004 /* BlurView.swift */; };
+		02994A03267895B800A84004 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02994A01267895B800A84004 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		029949F3267892BC00A84004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029949F6267892BC00A84004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029949F8267892BC00A84004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02994A00267895B800A84004 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		02994A01267895B800A84004 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		029949E9267892BB00A84004 /* UIKitAPPBindingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				029949FE2678959900A84004 /* SwiftUI View */,
 				029949EA267892BB00A84004 /* AppDelegate.swift */,
 				029949EC267892BB00A84004 /* SceneDelegate.swift */,
 				029949EE267892BB00A84004 /* ViewController.swift */,
@@ -65,6 +70,23 @@
 				029949F8267892BC00A84004 /* Info.plist */,
 			);
 			path = UIKitAPPBindingSwiftUI;
+			sourceTree = "<group>";
+		};
+		029949FE2678959900A84004 /* SwiftUI View */ = {
+			isa = PBXGroup;
+			children = (
+				029949FF267895B800A84004 /* View */,
+			);
+			path = "SwiftUI View";
+			sourceTree = "<group>";
+		};
+		029949FF267895B800A84004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02994A00267895B800A84004 /* BlurView.swift */,
+				02994A01267895B800A84004 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				029949EF267892BB00A84004 /* ViewController.swift in Sources */,
+				02994A02267895B800A84004 /* BlurView.swift in Sources */,
+				02994A03267895B800A84004 /* Home.swift in Sources */,
 				029949EB267892BB00A84004 /* AppDelegate.swift in Sources */,
 				029949ED267892BB00A84004 /* SceneDelegate.swift in Sources */,
 			);
